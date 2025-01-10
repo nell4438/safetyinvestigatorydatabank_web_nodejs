@@ -1,0 +1,50 @@
+{
+  "name": "__SafetyInvestigatoryDatabank_client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "lint": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint"
+},
+  "dependencies": {
+    "2": "^3.0.0",
+    "ant-design-vue": "^1.7.4",
+    "core-js": "^3.8.2",
+    "file-saver": "^2.0.5",
+    "md5": "^2.3.0",
+    "mixin": "^0.2.0",
+    "mkdirp": "^1.0.4",
+    "moment": "^2.29.1",
+    "multer": "^1.4.2",
+    "pdfmake": "^0.1.70",
+    "register-service-worker": "^1.7.2",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^10.15.7",
+    "vue": "^2.6.12",
+    "vue-material-modal-dialog": "^0.2.3",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.4.9",
+    "vue-the-mask": "^0.11.1",
+    "vuetify": "^2.4.0",
+    "vuex": "^3.6.0",
+    "vuex-persistedstate": "^4.0.0-beta.1"
+  },
+  "devDependencies": {
+    "@mdi/font": "^5.9.55",
+    "@vue/cli-plugin-babel": "^4.5.9",
+    "@vue/cli-plugin-eslint": "^4.5.9",
+    "@vue/cli-plugin-pwa": "^4.5.9",
+    "@vue/cli-plugin-router": "^4.5.9",
+    "@vue/cli-plugin-vuex": "^4.5.9",
+    "@vue/cli-service": "^4.5.9",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.17.0",
+    "eslint-plugin-vue": "^7.4.1",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.1.0",
+    "vue-cli-plugin-vuetify": "^2.0.9",
+    "vue-template-compiler": "^2.6.12",
+    "vuetify-loader": "^1.6.0"
+  }
+}
